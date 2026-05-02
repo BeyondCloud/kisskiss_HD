@@ -4,6 +4,18 @@
 
 <a href="vt/eason.png"><img src="vt/eason.png" alt="eason" width="160"></a>
 
+# 若你想為這個project做出貢獻
+
+- 使用gemini, 丟入以下prompt, edit_me.png, 以及一張或兩張參考照片, 我會先從PNG/twitch_emotes/裡的照片開始, 通常第一次會生不好, 要多生幾次, 如果一張參照圖一直生不好, 可以
+把VT的皮圖也餵進去. 再不好就要改prompt, 通常生一個能看的要嘗試3~4次
+```
+fix the missing part using the reference image (add outfit , hair to pink creature with green background) the final image should contain full body
+```
+
+- 下載下來的圖丟到繪圖軟體去背，我用mac的medibang MagicWand工具, Expand要調1 (這很重要, 不然會清不乾淨), 選完綠色底色後去除. 有一些細部可能要手動修
+-  去完背後要跟原圖對齊, 調成720x720, 把原圖擺在底圖層, 確認疊在上面的圖有確實對齊
+-  最後我會用 scripts裡面的make_gif.py生成gif檢查所有圖有沒有清乾淨並對齊
+
 ## 預覽圖
 
 > 此區塊由 `scripts/gen_gallery.py` 自動產生，請勿手動編輯。
