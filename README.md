@@ -3,6 +3,7 @@
 
 ```
 kisskiss_HD/
+├── 720_body/vt # vt 親親獸全身圖720x720
 ├── GIF/
 └── PNG/
     ├── anime/  # 放動畫圖片
