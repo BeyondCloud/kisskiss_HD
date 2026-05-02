@@ -6,6 +6,7 @@ block; everything between the markers is replaced.
 """
 from __future__ import annotations
 
+import hashlib
 from pathlib import Path
 from urllib.parse import quote
 
@@ -29,7 +30,8 @@ def gallery_table(prefix: str, files: list[Path]) -> str:
         cells = []
         for f in chunk:
             src = quote(f"{prefix}{f.name}") if prefix else quote(f.name)
-            cells.append(f'<img src="{src}" width="{THUMB_WIDTH}"><br>{f.stem}')
+            digest = hashlib.md5(f.read_bytes()).hexdigest()[:8]
+            cells.append(f'<img src="{src}?v={digest}" width="{THUMB_WIDTH}"><br>{f.stem}')
         cells.extend([""] * (COLS - len(cells)))
         rows.append("| " + " | ".join(cells) + " |")
     return "\n".join(rows)

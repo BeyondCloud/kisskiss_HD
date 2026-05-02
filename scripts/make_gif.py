@@ -2,7 +2,7 @@
 """Create a GIF from PNG files in a directory.
 
 Example:
-    python scripts/make_gif.py 720_body/vt -o GIF/vt.gif --duration-ms 50
+    python scripts/make_gif.py 720_body/vt -o vt.gif --duration-ms 50
 """
 from __future__ import annotations
 
