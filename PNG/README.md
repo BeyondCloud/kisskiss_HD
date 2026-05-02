@@ -47,3 +47,43 @@
 - copy貼圖到clipboard貼到繪圖軟體存成png
 - https://www.canva.com/features/image-upscaler/ 用這個放大貼圖
 - image downloader下載
+
+## 預覽圖
+
+> 此區塊由 `scripts/gen_gallery.py` 自動產生，請勿手動編輯。
+
+<!-- gallery:start -->
+
+### anime (6)
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="anime/akainu_01.png" width="160"><br>akainu_01 | <img src="anime/gojo_01.png" width="160"><br>gojo_01 | <img src="anime/ram_01.png" width="160"><br>ram_01 | <img src="anime/rem_01.png" width="160"><br>rem_01 |
+| <img src="anime/sai_01.png" width="160"><br>sai_01 | <img src="anime/sukuna_domain.png" width="160"><br>sukuna_domain |  |  |
+
+### celebrity (1)
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="celebrity/eason_trump.png" width="160"><br>eason_trump |  |  |  |
+
+### twitch_emotes (19)
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="twitch_emotes/cocor0Eason.png" width="160"><br>cocor0Eason | <img src="twitch_emotes/esoAngry.png" width="160"><br>esoAngry | <img src="twitch_emotes/hakuzenAngry.png" width="160"><br>hakuzenAngry | <img src="twitch_emotes/hitomi26Eason.png" width="160"><br>hitomi26Eason |
+| <img src="twitch_emotes/kuma7oKisskiss.png" width="160"><br>kuma7oKisskiss | <img src="twitch_emotes/lingmuAngry3.png" width="160"><br>lingmuAngry3 | <img src="twitch_emotes/mitsuki3iKISShair.png" width="160"><br>mitsuki3iKISShair | <img src="twitch_emotes/miwawaaKisskiss.png" width="160"><br>miwawaaKisskiss |
+| <img src="twitch_emotes/musha0Fa.png" width="160"><br>musha0Fa | <img src="twitch_emotes/p1lepeKISS.png" width="160"><br>p1lepeKISS | <img src="twitch_emotes/paroEason.png" width="160"><br>paroEason | <img src="twitch_emotes/ranran9Kiss.png" width="160"><br>ranran9Kiss |
+| <img src="twitch_emotes/suaiyaKiss.png" width="160"><br>suaiyaKiss | <img src="twitch_emotes/taotie1Chu.png" width="160"><br>taotie1Chu | <img src="twitch_emotes/vivi0z1Esoangry.png" width="160"><br>vivi0z1Esoangry | <img src="twitch_emotes/wuwutt02Eason.png" width="160"><br>wuwutt02Eason |
+| <img src="twitch_emotes/x4lianYys.png" width="160"><br>x4lianYys | <img src="twitch_emotes/yukito30Chu.png" width="160"><br>yukito30Chu | <img src="twitch_emotes/zeskrKisszeskr.png" width="160"><br>zeskrKisszeskr |  |
+
+### twitch_non_emoted (15)
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="twitch_non_emoted/07_apple.png" width="160"><br>07_apple | <img src="twitch_non_emoted/catfish_01.png" width="160"><br>catfish_01 | <img src="twitch_non_emoted/dino_01.png" width="160"><br>dino_01 | <img src="twitch_non_emoted/eason_01.png" width="160"><br>eason_01 |
+| <img src="twitch_non_emoted/eason_eunuch.png" width="160"><br>eason_eunuch | <img src="twitch_non_emoted/eason_maid.png" width="160"><br>eason_maid | <img src="twitch_non_emoted/eason_smokecut.png" width="160"><br>eason_smokecut | <img src="twitch_non_emoted/moko_kiss.png" width="160"><br>moko_kiss |
+| <img src="twitch_non_emoted/moko_smoke.png" width="160"><br>moko_smoke | <img src="twitch_non_emoted/murabitoooe_01.png" width="160"><br>murabitoooe_01 | <img src="twitch_non_emoted/nein_01.png" width="160"><br>nein_01 | <img src="twitch_non_emoted/overload_01.png" width="160"><br>overload_01 |
+| <img src="twitch_non_emoted/pele_hamburger.png" width="160"><br>pele_hamburger | <img src="twitch_non_emoted/roger_01.png" width="160"><br>roger_01 | <img src="twitch_non_emoted/siaohu_q.png" width="160"><br>siaohu_q |  |
+
+<!-- gallery:end -->
