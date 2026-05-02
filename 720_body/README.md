@@ -1,7 +1,7 @@
 # 不好意思喔, 這裡只收VT
 
 - 只放720x720的全身圖, 必須對齊這張圖
-[![eason](vt/eason.png)](vt/eason.png)
+<a href="vt/eason.png"><img src="vt/eason.png" alt="eason" width="160"></a>
 
 ## 預覽圖
 
