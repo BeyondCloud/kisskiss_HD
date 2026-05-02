@@ -35,10 +35,9 @@ def gallery_table(prefix: str, files: list[Path]) -> str:
     return "\n".join(rows)
 
 
-def png_gallery() -> str:
-    png_dir = REPO_ROOT / "PNG"
+def grouped_png_gallery(root: Path) -> str:
     sections = []
-    for sub in sorted(p for p in png_dir.iterdir() if p.is_dir()):
+    for sub in sorted(p for p in root.iterdir() if p.is_dir()):
         files = sorted(p for p in sub.iterdir() if p.suffix.lower() in PNG_EXTS)
         table = gallery_table(f"{sub.name}/", files)
         sections.append(f"### {sub.name} ({len(files)})\n\n{table}")
@@ -66,10 +65,14 @@ def splice(path: Path, body: str) -> bool:
 
 def main() -> None:
     changed = []
-    if splice(REPO_ROOT / "PNG" / "README.md", png_gallery()):
-        changed.append("PNG/README.md")
-    if splice(REPO_ROOT / "GIF" / "README.md", gif_gallery()):
-        changed.append("GIF/README.md")
+    targets = [
+        ("PNG/README.md", lambda: grouped_png_gallery(REPO_ROOT / "PNG")),
+        ("GIF/README.md", gif_gallery),
+        ("720_body/README.md", lambda: grouped_png_gallery(REPO_ROOT / "720_body")),
+    ]
+    for rel, builder in targets:
+        if splice(REPO_ROOT / rel, builder()):
+            changed.append(rel)
     if changed:
         print("Updated:", ", ".join(changed))
     else:
