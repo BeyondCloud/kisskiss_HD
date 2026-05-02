@@ -1,4 +1,4 @@
-# 親親幫
+# 親親幫AI圖
 作者: Beyondcloud
 圖源: Twitch頻道貼圖, Discord AI圖
 
