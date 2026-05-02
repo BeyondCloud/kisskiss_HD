@@ -8,6 +8,6 @@
 
 | | | | |
 | --- | --- | --- | --- |
-| <img src="cc.gif" width="160"><br>cc | <img src="cut.gif" width="160"><br>cut | <img src="hold.gif" width="160"><br>hold |  |
+| <img src="cc.gif" width="160"><br>cc | <img src="cut.gif" width="160"><br>cut | <img src="hold.gif" width="160"><br>hold | <img src="smoke.gif" width="160"><br>smoke |
 
 <!-- gallery:end -->
