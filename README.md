@@ -10,5 +10,5 @@ kisskiss_HD/
     ├── twitch_emotes/  # 放 Twitch 表情符號
     └── twitch_non_emoted/  # 放非表情符號的 Twitch 圖片
 ```
-- 任何資料都需要以這張圖的風格/姿勢為基礎
+### 任何生成亞種都需要以這張圖的風格/姿勢為基礎
 ![kisskiss_HD](PNG/twitch_emotes/esoAngry.png)
