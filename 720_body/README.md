@@ -31,6 +31,6 @@ fix the missing part using the reference image (add outfit , hair to pink creatu
 | <img src="vt/lingmu.png?v=a9de04e4" width="160"><br>lingmu | <img src="vt/mitsuki.png?v=884d94b5" width="160"><br>mitsuki | <img src="vt/miwawaa.png?v=311e8a1c" width="160"><br>miwawaa | <img src="vt/moko.png?v=19ac36eb" width="160"><br>moko |
 | <img src="vt/musha.png?v=79a781fb" width="160"><br>musha | <img src="vt/nein.png?v=fb36c30b" width="160"><br>nein | <img src="vt/paroniie.png?v=3a0c6604" width="160"><br>paroniie | <img src="vt/pele.png?v=1c079554" width="160"><br>pele |
 | <img src="vt/ranran.png?v=13daccfb" width="160"><br>ranran | <img src="vt/suaiya.png?v=82813b0a" width="160"><br>suaiya | <img src="vt/taotie.png?v=c8ecccb7" width="160"><br>taotie | <img src="vt/vivi.png?v=aa18c162" width="160"><br>vivi |
-| <img src="vt/wuwutt.png?v=27163eac" width="160"><br>wuwutt | <img src="vt/yukito.png?v=db3f0a92" width="160"><br>yukito | <img src="vt/zeskr.png?v=0bfeda16" width="160"><br>zeskr |  |
+| <img src="vt/wuwutt.png?v=01870126" width="160"><br>wuwutt | <img src="vt/yukito.png?v=db3f0a92" width="160"><br>yukito | <img src="vt/zeskr.png?v=0bfeda16" width="160"><br>zeskr |  |
 
 <!-- gallery:end -->
