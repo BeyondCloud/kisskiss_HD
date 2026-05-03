@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+# --diff-filter=AMDR catches added, modified, deleted, and renamed entries,
+# so newly added or removed images both trigger a regeneration.
+if git diff --cached --name-only --diff-filter=AMDR \
+    | grep -qiE '^(PNG|GIF|720_body)/.*\.(png|gif)$|^scripts/gen_gallery\.py$'; then
+  echo "[pre-commit] regenerating gallery..."
+  python3 scripts/gen_gallery.py
+  git add PNG/README.md GIF/README.md 720_body/README.md
+fi
